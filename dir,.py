@@ -20,11 +20,6 @@ def open_file():
               str(filepath), font=('Aerial 11')).pack()
 
 
-# Add a Label widget
-label = Label(win, text="Click the Button to browse the Files",
-              font=('Georgia 13'))
-label.pack(pady=10)
-
 # Create a Button
 ttk.Button(win, text="Browse", command=open_file).pack(pady=20)
 
